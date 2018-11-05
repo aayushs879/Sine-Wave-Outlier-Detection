@@ -1,0 +1,3 @@
+# Sine-Wave-Outlier-Detection
+We have been given 100 samples from a single cycle of a sinusoid. Out of those 100 samples one didnt lie on the sinusoid. Had to detect that. Please go through the notebook, Its very interactive. 
+We calculate phase at each sample and take the derivative between two consecutive values of phase. We get a graph which looks somewhat like a digital signal and has a quake in between. The point at which quake starts corresponds to the outler. We then take the derivative of graph previously obtained and check for sign changes, two consecutive sign changes signifies the presence of an outlier at that point
